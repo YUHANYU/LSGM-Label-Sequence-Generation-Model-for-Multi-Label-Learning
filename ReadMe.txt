@@ -1,3 +1,1 @@
-这是对于多标记学习的标记序列生成模型
-要做到代码的模块化
-尽量要做的代码有有所注释，可读取强
+LSGM：Label Sequence Generation Model for Multi Label Learning
