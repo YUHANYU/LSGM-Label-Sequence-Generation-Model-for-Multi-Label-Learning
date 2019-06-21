@@ -1,1 +1,1 @@
-LSGM：Label Sequence Generation Model for Multi Label Learning
+LSGM：Label Sequence Generation Model for Multi Label Learning.
