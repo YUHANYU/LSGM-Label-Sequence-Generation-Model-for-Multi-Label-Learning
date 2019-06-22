@@ -56,7 +56,7 @@ class LSGM(object):  # 标记序列生成解码器
         k_near_nei_test = data_obj.get_k_from_train_features(
             mll_features_train, mll_features_val, mll_features_test)
 
-        # 得到每个示例k个最近邻的正概率α和贝塔
+        # 得到每个示例k个最近邻的正标记先验概率α和负标记先验概率β
         train_val_test_alpha, train_val_test_beta = data_obj.get_prior_probability(
             k_near_nei_train, k_near_nei_val, k_near_nei_test, mll_labels_new, self.k_nearest_neighbors)
 
